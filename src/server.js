@@ -1,6 +1,6 @@
 import express from "express";
 import { config } from "dotenv";
-import rota from "./src/routes/index.routes";
+import rota from "./routes/index.routes.js";
 
 config();
 
